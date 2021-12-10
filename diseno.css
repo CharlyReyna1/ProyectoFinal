@@ -1,0 +1,105 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav.nav-main{
+  font-size: 17px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 20px 0px;
+}
+
+
+
+body {
+  background-image: url("img/fondo4.jpg");
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+div#contenedor {
+
+  margin: auto;
+}
+
+div#cont{
+  margin: auto;
+  background-color: #A76726;
+}
+
+img.nav-two{
+  height: 75px;
+  width: 67px;
+}
+
+nav.nav-main ul{
+  display: flex;
+}
+
+nav.nav-main ul li{
+  padding: 10px;
+}
+
+nav.nav-main ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+nav.nav-main ul.nav-menu{
+  flex: 1;
+  margin-right: 20px;
+}
+
+img.fotosrandoms{
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+}
+
+div#footer-links{
+  background-color: #2f3640;
+  color: #FF6347;
+  font-size: 12px;
+  padding: 30px 0px;
+}
+
+div#conter{
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+div#navegacion{
+  font-size: 12px;
+  padding: 30px 0px;
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+img.fotoprincipal{
+  width: 932px;
+  height: 621px;
+  margin-left: 100px
+}
+
+div#descripcion{
+  background-color: #D2691E;
+  font: 12px;
+  padding: 30px 30px;
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
